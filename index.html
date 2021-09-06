@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Pendaftaran</title>
+</head>
+<body bgcolor="ACDAC3">
+    <h2 align="left"> <font color="27AD7D" face="Sniglet" size="16"> Pendaftaran Ekstrakurikuler </font> </h2>
+    <form method="POST"   action="kirim.php">
+        
+        <fieldset style="width : 2px;">
+            <table width="800" height="600" border="0" align="left">
+                <legend> <font color="00A55D" face="Chelsea Market" size="6"> Biodata Pendaftar </font></legend>
+                  <tr>
+                        <td> <label for="nama"> <font color="1c761c" face="Cherolina">Nama Lengkap</font> </label> </td>
+                        <td> <input type="text" name="nama" size="65" placeholder="Nama Anda" id="nama"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="gender"><font color="1c761c" face="Cherolina">Jenis Kelamin</font></label> </td>
+                        <td> <input type="radio" name="gender" value="0" id="gender"> Pria
+                             <input type="radio" name="gender" value="1" id="gender"> Wanita </td>
+                   </tr>
+                    <tr>
+                     <td> <label for="Kelas"><font color="1c761c" face="Cherolina">Kelas</font></label> </td>
+                     <td> <select name="Kelas" id="Kelas">
+                            <option value="0"> IPA 1 </option>
+                            <option value="1"> IPA 2 </option>
+                            <option value="2"> IPA 3 </option>
+                            <option value="3"> IPA 4 </option>
+                            <option value="4"> IPA 5 </option>
+                            <option value="5"> IPA 6 </option>
+                            <option value="6"> IPS 1 </option>
+                            <option value="7"> IPS 2 </option> </select> </td> 
+                    </tr>
+                    <tr>
+                        <td><label for="tlahir"><font color="1c761c" face="Cherolina">Tempat lahir</font></label> </td>
+                        <td> <input type="text" name="tlahir" id="tlahir" placeholder="Tempat Lahir Anda" size="65"> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="tgl"><font color="1c761c" face="Cherolina">Tanggal Lahir</font></label>  </td>
+                        <td> <input type="date" name="tgl" id="tgl"> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="umur"><font color="1c761c" face="Cherolina">Umur</font></label></td>
+                        <td><input type="number" name="umur" id="umur" > </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="alamat"><font color="1c761c" face="Cherolina">Alamat</font></label> </td>
+                        <td> <textarea name="alamat" id="alamat" cols="65" rows="3" placeholder="Alamat Rumah Sekarang"></textarea> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="sekolah"><font color="1c761c" face="Cherolina">Asal Sekolah</font></label></td>
+                        <td> <input type="text" name="sekolah" size="65" id="sekolah" placeholder="Asal Sekolah"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="agama"><font color="1c761c" face="Cherolina">Agama</font><font color="1c761c" face="Cherolina"></label> </td>
+                        <td> <select name="agama" id="agama">
+                        <option value="00"> Kristen Protestan </option>
+                        <option value="11"> Katolik</option>
+                        <option value="22"> Islam </option>
+                        <option value="33"> Hindu </option>
+                        <option value="44"> Buddha </option>
+                        <option value="55"> Konghucu </option> </select>
+                        </td>
+                   </tr>
+                   
+            </table>
+        </fieldset>
+            <br> <br>
+
+        <fieldset style="width : 2px;">
+            <table width="800" height="400" border="0" align="left">
+                <legend><font color="00A55D" face="Chelsea Market" size="6">Minat dan Bakat</font></legend>
+                <tr>
+                    <td> <label for="Hobi"><font color="1c761c" face="Cherolina">Hobi</font></label> </td>
+                    <td> <input type="text" name="Hobi" size="65" id="Hobi" placeholder="Hobi Anda"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="Ekstrakurikuler"> <font color="1c761c" face="Cherolina">Pilihan Ekstrakurikuler </font></label></td>
+                    <td> <input type="checkbox" name="Ekstrakurikuler" value="000" id="Ekstrakurikuler"> Basket <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="111" id="Ekstrakurikuler"> Futsal <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="222" id="Ekstrakurikuler"> Voli <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="333" id="Ekstrakurikuler"> Badminton <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="444" id="Ekstrakurikuler"> Karate <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="555" id="Ekstrakurikuler"> Paskibra <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="666" id="Ekstrakurikuler"> Pramuka <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="777" id="Ekstrakurikuler"> Tarian <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="888" id="Ekstrakurikuler"> Band <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="999" id="Ekstrakurikuler"> Drama <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="1010" id="Ekstrakurikuler"> Melukis <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="1111" id="Ekstrakurikuler"> Memasak <br>
+                        <input type="checkbox" name="Ekstrakurikuler" value="1212" id="Ekstrakurikuler"> Olimpiade <br>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td> <label for="alasan"><font color="1c761c" face="Cherolina">Alasan</font></label> </td>
+                    <td> <textarea name="alasan" id="alasan" cols="65" rows="5" placeholder="Alasan mengikuti Ekstrakurikuler"></textarea> </td>
+                </tr>
+            </table>
+         </fieldset>
+            <br> <br>
+
+        <fieldset style="width : 2px;">
+            <table width="800" height="250" border="0" align="left">
+                <legend><font color="00A55D" face="Chelsea Market" size="6">Pembuatan Akun</font></legend>
+                <tr>
+                    <td><label for="pengguna"><font color="1c761c" face="Cherolina">Username</font></label></td>
+                    <td><input type="text" name="pengguna" size="40" maxlength="40" placeholder="Nama Pengguna" id="pengguna"></td>
+                </tr>
+                <tr>
+                    <td> <label for="nomor"> <font color="1c761c" face="Cherolina">Nomor Telepon </font> </label> </td>
+                    <td> <input type="text" name="nomor" size="20" maxlength="20" placeholder="+62" id="nomor"> </td>
+                   </tr>
+                <tr>
+                    <td> <label for="sandi"> <font color="1c761c" face="Cherolina">Password</font></label></td>
+                    <td><input type="password" name="sandi" size="25" id="sandi" maxlength="25" placeholder="Kata Sandi"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email"><font color="1c761c" face="Cherolina">Email</font></label></td>
+                    <td><input type="email" name="email" size="65" id="email" placeholder="Email Anda"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br><br>
+            <input type="submit" name="submit" value="Submit">
+            <input type="reset" name="reset" value="Reset">
+            
+    </form>
+
+</body>
+</html>
